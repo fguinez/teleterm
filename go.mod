@@ -1,4 +1,4 @@
-module github.com/alfiankan/teleterm
+module github.com/fguinez/teleterm
 
 go 1.15
 
