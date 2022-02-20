@@ -23,7 +23,7 @@ var elapseds string
 var lockId int
 var isLocked bool = false
 
-func lock(stat bool, senderId int) {
+func lock(stat bool, senderId int64) {
 	if stat {
 		isLocked = true
 		lockId = senderId
