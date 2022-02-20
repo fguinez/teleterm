@@ -20,7 +20,7 @@ var er error
 var send string
 var elapseds string
 
-var lockId int
+var lockId int64
 var isLocked bool = false
 
 func lock(stat bool, senderId int64) {
